@@ -4,16 +4,22 @@
   "description": "PCAT PHOTO APP",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "keywords": [
     "photo",
     "app",
     "camera"
   ],
+  
   "author": "Furkan Yılmaz",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.1.4",
     "prettier": "3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
